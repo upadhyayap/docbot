@@ -1,0 +1,54 @@
+html, body, [class*="st-"]  {
+    background-color: #f7f7f8 !important;
+    color: #222 !important;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+.css-1v0mbdj, .stApp, .css-18e3th9, .css-1d391kg {  /* Main background */
+    background-color: #f7f7f8 !important;
+}
+.stButton>button {
+    background: #ececf1;
+    color: #222;
+    border: none;
+    border-radius: 8px;
+    box-shadow: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.stButton>button:hover {
+    background: #e3e3e7;
+}
+.stTextInput>div>div>input {
+    background: #fff;
+    color: #222;
+    border: 1px solid #e3e3e7;
+    border-radius: 8px;
+}
+.stSidebar {
+    background: #ececf1 !important;
+    border-right: 1px solid #e3e3e7;
+}
+.stSidebar .stButton>button {
+    background: #e3e3e7;
+    color: #222;
+    border: none;
+    border-radius: 8px;
+    box-shadow: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.stSidebar .stButton>button:hover {
+    background: #d4d4d9;
+}
+.stDivider {
+    border-top: 1px solid #e3e3e7 !important;
+}
+.stHeader, .stMarkdown h1, .stMarkdown h2, .stMarkdown h3 {
+    background: none;
+    color: #222 !important;
+    font-weight: 700;
+}
+/* Sidebar text and icons */
+.stSidebar .stMarkdown, .stSidebar .stTextInput, .stSidebar .stCaption, .stSidebar .stSubheader {
+    color: #555 !important;
+} 
