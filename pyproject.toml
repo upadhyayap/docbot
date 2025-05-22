@@ -39,4 +39,5 @@ dependencies = [
     "pinecone",
     "pypdf>=5.5.0",
     "faiss-cpu>=1.11.0",
+    "langchain_experimental"
 ]

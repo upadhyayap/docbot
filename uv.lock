@@ -400,6 +400,7 @@ dependencies = [
     { name = "langchain" },
     { name = "langchain-community" },
     { name = "langchain-core" },
+    { name = "langchain-experimental" },
     { name = "langchain-ollama" },
     { name = "langchain-openai" },
     { name = "langchain-pinecone" },
@@ -437,6 +438,7 @@ requires-dist = [
     { name = "langchain-community" },
     { name = "langchain-community", specifier = ">=0.3.24" },
     { name = "langchain-core", specifier = ">=0.3.60" },
+    { name = "langchain-experimental" },
     { name = "langchain-ollama", specifier = ">=0.3.3" },
     { name = "langchain-openai", specifier = ">=0.0.5" },
     { name = "langchain-pinecone", specifier = ">=0.2.6" },
@@ -934,6 +936,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/5b/75/95129aaada92980a002a31e002610a80af3c8967ae7884710372e89cdde0/langchain_core-0.3.60.tar.gz", hash = "sha256:63dd1bdf7939816115399522661ca85a2f3686a61440f2f46ebd86d1b028595b", size = 557456, upload-time = "2025-05-15T15:23:23.642Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/2d/bc/344f5b11fdfe0e27f7064d2e829921a791461dc32e5ed285fe6325518c26/langchain_core-0.3.60-py3-none-any.whl", hash = "sha256:2ccdf06b12e699b1b0962bc02837056c075b4981c3d13f82a4d4c30bb22ea3dc", size = 437890, upload-time = "2025-05-15T15:23:22.278Z" },
+]
+
+[[package]]
+name = "langchain-experimental"
+version = "0.3.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "langchain-community" },
+    { name = "langchain-core" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/27/56/a8acbb08a03383c28875b3b151e4cefea5612266917fbd6fc3c14c21e172/langchain_experimental-0.3.4.tar.gz", hash = "sha256:937c4259ee4a639c618d19acf0e2c5c2898ef127050346edc5655259aa281a21", size = 140532, upload-time = "2024-12-20T15:16:09.42Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b2/27/fe8caa4884611286b1f7d6c5cfd76e1fef188faaa946db4fde6daa1cd2cd/langchain_experimental-0.3.4-py3-none-any.whl", hash = "sha256:2e587306aea36b60fa5e5fc05dc7281bee9f60a806f0bf9d30916e0ee096af80", size = 209154, upload-time = "2024-12-20T15:16:07.006Z" },
 ]
 
 [[package]]
